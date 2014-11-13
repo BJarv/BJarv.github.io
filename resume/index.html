@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  <link rel='alternate' type="application/pdf" media='print' href='/resume/brandon_jarvinen-resume.pdf'>
+  <link rel="stylesheet" type="text/css" media="print" href="/resume/print.css" />
+
+  <style type="text/css">
+    li { margin-bottom:0.2em; }
+    h1.name {margin:0em; padding-left:0.5em; padding-top: 0.5em; font-size:1.35em; font-stretch:wider; }
+    ul {list-style: none outside; position:relative; left:0em; padding-left:0em; margin-top:0em; margin-bottom:0em;}
+    ul.contact_information { margin-left:0.8em;}
+    ul.contact_information li {padding-right:3em; display:inline;}
+    ul.contact_information li.linkedin_profile {padding-right:5em;float:right;}
+    ul.contact_information .profile_img {position:absolute; height:50px; width:50px; bottom:0px;right:8px;}
+    ul.technical_skills li {margin-top:0.3em; margin-bottom:0.2em;}
+    ul.positions li {margin-top:0.3em; margin-bottom:0.2em;}
+    ul.position_highlights li {list-style-type: disc; position:relative; margin-left:2em; margin-top:0.2em;}
+    span.skillset {font-weight:bold;}
+    span.position_title {font-weight:bold;}
+    dl {padding: 0em 0.8em;margin: 0em; }
+    dt {margin:0em; font-weight:bold; text-transform:uppercase; }
+    dd {margin-left:1.3em; margin-bottom:1em;}
+    body {font-family: sans-serif; margin:0em;}
+    dd.degree {margin-bottom:0em;}
+    div#resume { display: block; margin-top:0em; margin-left:auto; margin-right:auto; width:40em; }
+    ul.contact_information {font-size:smaller;}
+    section#resume_details {font-size:smaller; }
+    canvas#resume_background_image {width:40em; height:auto; z-index:-1; position:absolute;}
+    header hr {margin-left:0.7em; margin-right:0.7em;}
+    a { color:black; text-decoration:none}
+    a:hover { text-decoration:underline; }
+    #resume {
+      border: #CCC solid 0.1em;
+      border-radius:0.5em;
+      -moz-border-radius:0.5em;
+      background: -moz-linear-gradient( center top,
+              rgb(255,255,255) 0%,
+              rgb(200,200,200) 0.3%,
+              rgb(220,220,220) 5%,
+              rgb(230,230,230) 10%,
+              rgb(240,240,240) 30%,
+              rgb(255,255,255) 95%,
+              rgb(240,240,240) 100%
+      );
+      background: -webkit-gradient(linear, left top, left bottom, 
+              color-stop(0.0, rgb(255,255,255)), 
+              color-stop(0.003, rgb(200,200,200)), 
+              color-stop(0.05, rgb(220,220,220)), 
+              color-stop(0.1, rgb(230,230,230)), 
+              color-stop(0.3, rgb(240,240,240)),
+              color-stop(0.95, rgb(255,255,255)),
+              color-stop(1.0, rgb(240,240,240))
+      );
+    }
+  </style>
+  <script type="text/javascript">
+    //a canvas drawing for our resume background
+    function draw_background_gradient()
+    {
+      var resume_canvas = document.getElementById('resume_background_image').getContext('2d');
+      var gradient = resume_canvas.createLinearGradient(0,0,0,260);
+      gradient.addColorStop(0, "#FFFFFF");
+      gradient.addColorStop(0.02, "#DDDDDD");
+      gradient.addColorStop(0.2, "#EEEEEE");
+      gradient.addColorStop(0.4, "#EFEFEF");
+      gradient.addColorStop(1, "#FFFFFF");
+      resume_canvas.fillStyle=gradient;
+      resume_canvas.fillRect(0,0,800,260);
+    }
+  </script>
+
+  <title>
+    BRANDON JARVINEN - RESUME
+  </title>
+</head>
+
+<body>
+<div id='resume'>
+
+<header>
+<h1 class='name'><a href='http://brandonjarvinen.com'>BRANDON JARVINEN</a></h1>
+<ul class='contact_information'>
+  <li class='current_address'><span class='location'>Santa Cruz, CA</span></li>
+  <li class='linkedin_profile'>
+    <a href="http://brandonjarvinen.com/#/contact/">brandonjarvinen.com/#/contact/</a> <a class="profile_img" href='http://brandonjarvinen.com/#/contact/'><img src='profpic.png' alt='profile pic'/></a>
+  </li>
+</ul>
+<hr />
+</header>
+
+<section id="resume_details">
+<dl>
+  <dt>Personal Focus<dt>
+  <dd>I take pleasure in creating tools for easy tweaking of gameplay mechanics, to produce highly refined and exciting games.<p>I am an avid eSport enthusiast who enjoys playing games such as Smash Bros Melee, Hearthstone, and Counter-Strike: Global Offensive</p><p>I am currently proud to be working on HypeTrain with Ursa Major Games, <a href="http://ursamajorgames.com/">check out the project here.</a></p></dd>
+  <dt>Technical Skills</dt>
+  <dd>
+    <ul class='technical_skills'>
+      <li><span class='skillset'>Languages and tools:</span> C#, Unity, Python, Javascript, jQuery, Java, C, HTML5, MIPS</li>
+      <li><span class='skillset'>Academic Subjects:</span>  Game Design Process, Database Design, Web apps, Arduino.</li>
+	  <li><span class='skillset'>Planned Academic Subjects:</span>(to be completed by Summer 2015) AI, WebGL, Haskell, Prolog, and Scala. </li>
+    </ul>
+  </dd>
+  
+  <dt>Game Experience</dt>
+  <dd>
+    <ul class='positions'>
+      <li>
+        <span class='position_title'>Lead Programmer</span> - HypeTrain, Ursa Major Games startup project.<br/>A western style take on the endless runner genre. You are a bandit trying to collect as much loot as you can from a wacky train with new surprises in every car. <time>(4/2014 - Current)</time>
+		<ul class='position_highlights'>
+		  <li>Using Unity, I implemented many of our game mechanics, features, and systems in C# such as gun kickback which gives the player amazing aerial mobility, in-game menus, shop system, as well as train car and item spawning.</li>
+		  <li>I create programming team sprint tasks as well as manage bug reports for the project.</li>
+		  <li><a href='http://ursamajorgames.com/'>Check out our site</a> and look forward to our next public release packed full of new features!</li>
+		</ul>
+	  </li>
+      <li>
+        <span class='position_title'>Lead Programmer</span> - IncognitOwl, Game Design Experience project.<br/>In a world of Patriot Owls vs Soviet Bats, only the IncognitOwl can infiltrate the bat base and retrieve the intelligence needed to win the war. <time>(1/2014 - 3/2014)</time>
+        <ul class='position_highlights'>
+		   <li>The game required precise timing and allowed for multiple ways of solving stealth puzzles based on player preference.</li>
+           <li>Using HTML5 canvas and Javascipt I emplemented collision detection and character movement.</li>
+		   <li>The game was playable in a browser and would save progress as you completed levels.</li>
+        </ul>
+      </li>
+      <li>
+        <span class='position_title'>Sole Programmer</span> - Escape!, Foundations of Game Design project.<br/>An educational typing game that pit the player against giant word walls that would have to be typed away before being crashed into.
+        <ul class='position_highlights'>
+          <li>I programmed the game entirely in the Game Maker Language</li>
+		  <li>Words start of small and are slowly increased in size as well as frequency.</li>
+        </ul>
+      </li>
+    </ul>
+  </dd>
+
+  <dt>Outside Experience</dt>
+  <dd>
+    <ul class='technical_skills'>
+      <li><span class='skillset'>VEX Robotics Sole Programmer</span> - <time>(9/2008 - 4/2011)</time></br> My robotics team attended the VEX World Championships, twice in Dallas, TX, once in Orlando, FL, and placed 3rd in 2011 as well as 5th in 2010 in the main competition. I received 3 Programming Division Champion awards from various regional competitions. Robots were programmed in C.</li>
+      <li><span class='skillset'>Web Developer</span> - <time>(9/2014 - Current)</time></br>As a project for my Web Apps class, I am working with a group to create a social network with the ability to vote on individuals posts. The website is being programmed using Python, web2py, and SQL</li>
+	  <li><span class='skillset'>Cashier</span> - <time>(5/2014 - 10/2014)</time></br>I worked as a Cashier for Togo's and would occasionally bust a move with the advertising sign on the corner of the shopping center.<br/>Manager: Tammy Betancourt, (831)431-6889</li>
+    </ul>
+  </dd>
+  <dt>Education</dt>
+  <dd class='degree'>Undergrad working on Bachelor of Science, Computer Science - Game Design</dd>
+  <dd class='university'>University of California, <span class='location'>Santa Cruz</span>, Expected Graduation Date: <time>June 2016</time></dd>
+</dl>
+</section>
+</div>
+
+<!-- 
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20043816-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+-->
+</body>
