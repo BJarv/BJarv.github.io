@@ -10,7 +10,7 @@
     ul {list-style: none outside; position:relative; left:0em; padding-left:0em; margin-top:0em; margin-bottom:0em;}
     ul.contact_information { margin-left:0.8em;}
     ul.contact_information li {padding-right:3em; display:inline;}
-    ul.contact_information li.linkedin_profile {float:right;}
+    ul.contact_information li.linkedin_profile {padding-right:5em;float:right;}
     ul.contact_information .profile_img {position:absolute; height:50px; width:50px; bottom:0px;right:8px;}
 	a.profile_img img {width:100%;}
     ul.technical_skills li {margin-top:0.3em; margin-bottom:0.2em;}
@@ -83,7 +83,7 @@
 <ul class='contact_information'>
   <li class='current_address'><span class='location'>Santa Cruz, CA</span></li>
   <li class='linkedin_profile'>
-    brandon.jarv@gmail.com
+    brandon.jarv@gmail.com<a class="profile_img" href='http://brandonjarvinen.com/'><img src='profpic.png' alt='profile pic'/></a>
   </li>
 </ul>
 <hr />
