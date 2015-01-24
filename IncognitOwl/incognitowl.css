@@ -1,0 +1,185 @@
+.nav {
+  background-color: #404040;
+  border-bottom: 4px solid #7e27d5;
+  height: 61px;
+}
+
+.nav a {
+  padding-top: 5px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-shadow: #fff 0 0 .5px;
+}
+
+#init {
+	padding-top:1px;
+}
+
+#init a {
+	font-size: 35px;
+}
+
+.nav li {
+  display: inline;
+}
+
+#social {
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+	margin: 0;
+ }
+
+.carousel img{
+	width: 100%;
+	height: 400px;
+}
+
+.main-text {
+    position: absolute;
+    top: 50px;
+    width: 96.66666666666666%;
+    color: #000;
+	padding-left: 150px;
+}
+
+.main-text h1 {
+	color: #000;
+	font-size: 48px;  
+	font-family: 'Shift', sans-serif;
+	font-weight: bold;
+	text-shadow: #000 0 0 5px;
+	margin-bottom: -15px;
+}
+
+.main-text h3 {
+	color: #000;
+	font-family: 'Shift', sans-serif;
+	text-shadow: #000 0 0 5px;
+}
+
+.neighborhood-guides {
+    background-color: #efefef;
+    border-bottom : 1px solid #dbdbdb;
+}
+
+.neighborhood-guides h2 {
+    color: #393c3d;
+    font-size:24px;
+	font-weight: bold;
+	padding-left: 95px;
+}
+
+.neighborhood-guides h3 {
+    color: #393c3d;
+    font-size:24px;
+	font-weight: bold;
+}
+
+.neighborhood-guides p {
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+.neighborhood-guides img {
+    border-radius: 10px;
+	background-color: #efefef;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.thumbnail {
+	background-color: #efefef;
+	border-color: #efefef;
+}
+
+canvas {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -380px;
+	margin-left: -420px;
+}
+
+#me {
+	border-radius: 200%;
+	border-width: 2px;
+	border-color: #000;
+}
+
+#title{
+	padding: 20px;
+}
+
+#gametext p{
+	font-family: 'Shift', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#checkbuttons {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+#home-left {
+	position: fixed;
+	right: 10%;
+	top: 50%;
+}
+
+#footer {
+	padding-top: 18px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#browser{
+	background-color: #404040;
+}
+
+#browser p{
+	position:absolute;
+	bottom: 1%;
+	left:46.25%;
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#browser a{
+	position: fixed;
+	bottom: 7%;
+	left: 47.5%;
+	background-color: #b4bcc2;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#owl{
+	position:absolute;
+	top:25%;
+	left: 1%;
+}
+
+#bat {
+	position:absolute;
+	top:24.5%;
+	right: 1%;
+}
